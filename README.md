@@ -4,6 +4,15 @@
 # Introduction
 Developed to introduce serverless framework over spring boot with graphql-spring lib deployed in lambda with .
 
+## Requirements
+
+- AWS Account
+- aws cli (must be configured with correct permissions to be able to deploy the app)
+- npm (It is required to install serverless framework dependencies)
+- serverless framework (npm install -g serverless)
+- java11 and any IDE acceptable
+
+
 ## Architecture
 ![Draw](images/serverless-spring.jpg)
 ![API Gateway](images/apigateway.png)
@@ -48,7 +57,7 @@ email
 
 # delete
 mutation DeleteUser {
-deleteUser(id: "1") {
+deleteUser(id: "79da92de-c7e4-4481-8964-dc520f76842f") {
 id
 name
 email
@@ -72,8 +81,7 @@ email
 
 Note: CI Stages are running by default but CD Stages configured as manual.
 
-## Demo API
-![Pipeline](images/ApiGw_Methods.png)
+
 
 More API info could be found on swagger-ui by running locally and navigate http://localhost:8080/swagger-ui.html
 
