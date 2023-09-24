@@ -1,0 +1,3 @@
+settings:
+  usersTableName: "${self:provider.stage}-serverless-users-table"
+  environment:  ${self:provider.stage}
