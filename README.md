@@ -2,11 +2,11 @@
 **Maintained by:** [Klesio Silva](klesiossss@gmail.com)
 
 # Introduction
-Developed to introduce serverless framework over spring boot.
+Developed to introduce serverless framework over spring boot with graphql-spring lib deployed in lambda with .
 
 ## Architecture
-![ExecutionTriggerArchitecture](images/ServerlessDeploymentDiagram.jpg)
-
+![Draw](images/serverless-spring.jpg)
+![API Gateway](images/apigateway.png)
 ## Basic Commands
 # user
 query User {
