@@ -6,7 +6,7 @@ custom: ${file(./serverless.vars.yml)}
 provider:
   name: aws
   runtime: java11
-  region: eu-central-1
+  region: ca-central-1
   profile: default
   stage: ${opt:stage, 'dev'}
   environment: ${self:custom.settings}

@@ -85,7 +85,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/serverless-spring-boot/dev/1695579728716-2023-09-24T18:22:08.716Z/serverless-spring-boot-1.0.0.zip"
+          "S3Key": "serverless/serverless-spring-boot/dev/1695597940863-2023-09-24T23:25:40.863Z/serverless-spring-boot-1.0.0.zip"
         },
         "Handler": "com.serverless.example.StreamLambdaHandler::handleRequest",
         "Runtime": "java11",
@@ -110,14 +110,14 @@
         "LambdaIamRole"
       ]
     },
-    "CreateUserLambdaVersionzzv15GW66Gb6OBFWBCKXmBWzY1DNiaILglf8Tf1c": {
+    "CreateUserLambdaVersionfBSQPdiradUqbEsdj2meYMiCZDzZvZDqcrutTZyCj2Y": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateUserLambdaFunction"
         },
-        "CodeSha256": "qOEXUPtIMo8Q2fX8WUNooxbWtJtM71JnyogF4iiELf4="
+        "CodeSha256": "VK9iu8Lxvs+sBppq30+TMELLtg7ATxNsgF26/gDWx+Y="
       }
     },
     "CreateUserEventsRuleSchedule1": {
@@ -275,7 +275,7 @@
         "CreateUserLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1695579724886": {
+    "ApiGatewayDeployment1695597902115": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -398,7 +398,7 @@
     "CreateUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateUserLambdaVersionzzv15GW66Gb6OBFWBCKXmBWzY1DNiaILglf8Tf1c"
+        "Ref": "CreateUserLambdaVersionfBSQPdiradUqbEsdj2meYMiCZDzZvZDqcrutTZyCj2Y"
       },
       "Export": {
         "Name": "sls-serverless-spring-boot-dev-CreateUserLambdaFunctionQualifiedArn"

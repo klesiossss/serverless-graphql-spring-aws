@@ -23,12 +23,6 @@ public class User {
         email = userForm.getEmail();
     }
 
-    public User(String id, String name, String email){
-        this.name = name;
-        this.email = email;
-        this.id = id;
-    }
-
     public String getId() {
         return id;
     }
