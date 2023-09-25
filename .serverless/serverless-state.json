@@ -107,7 +107,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-spring-boot/dev/1695597940863-2023-09-24T23:25:40.863Z/serverless-spring-boot-1.0.0.zip"
+                "S3Key": "serverless/serverless-spring-boot/dev/1695607584205-2023-09-25T02:06:24.205Z/serverless-spring-boot-1.0.0.zip"
               },
               "Handler": "com.serverless.example.StreamLambdaHandler::handleRequest",
               "Runtime": "java11",
@@ -297,7 +297,7 @@
               "CreateUserLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1695597902115": {
+          "ApiGatewayDeployment1695607573975": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -669,7 +669,7 @@
       "package": {
         "artifact": "build/distributions/serverless-spring-boot-1.0.0.zip",
         "artifactsS3KeyDirname": "serverless/serverless-spring-boot/dev/code-artifacts",
-        "artifactDirectoryName": "serverless/serverless-spring-boot/dev/1695597940863-2023-09-24T23:25:40.863Z"
+        "artifactDirectoryName": "serverless/serverless-spring-boot/dev/1695607584205-2023-09-25T02:06:24.205Z"
       },
       "functions": {
         "$ref": "$[\"service\"][\"functions\"]"
@@ -682,7 +682,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/serverless-spring-boot/dev/1695597940863-2023-09-24T23:25:40.863Z",
+    "artifactDirectoryName": "serverless/serverless-spring-boot/dev/1695607584205-2023-09-25T02:06:24.205Z",
     "artifact": "serverless-spring-boot-1.0.0.zip"
   }
 }
